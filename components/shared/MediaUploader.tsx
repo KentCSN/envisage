@@ -47,7 +47,7 @@ const MediaUploader = ({ onValueChange, setImage, image, publicId, type }: Media
 
   return (
     <CldUploadWidget
-      uploadPreset="node_imaginify"
+      uploadPreset="kentCSN_envisage"
       options={{
         multiple: false,
         resourceType: 'image',
